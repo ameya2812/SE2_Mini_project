@@ -92,7 +92,7 @@ submitQuiz = async (submittedQuiz, res) => {
 			const quiz = await cursor.toArray()
 
 			console.log('in quiz store')
-			const score = Evaluate(quiz[0].questions, submittedQuiz.questions)
+			const score = 0
 			console.log('score : ', score)
 			res.status(200).json({ score })
 

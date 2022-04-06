@@ -60,7 +60,7 @@ const UserDashboard = ({ user }) => {
 		}
 	}
 
-	if (loading) return <LoadingScreen />
+	if (loading) return <Loading_Screen />
 
 	if (editQuiz.length)
 		return (

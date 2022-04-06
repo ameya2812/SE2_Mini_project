@@ -70,7 +70,7 @@ const CreateQuiz = ({
 	}
 	if (quizCode) return <Redirect push to={`/created-succesfully/${quizCode}`} />
 
-	if (loading === 'start') return <LoadingScreen />
+	if (loading === 'start') return <Loading_Screen />
 
 	return (
 		<div id='main-body'>
